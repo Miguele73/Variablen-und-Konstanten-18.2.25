@@ -15,7 +15,7 @@ void main() {
   bool hasParentalConsent = false;
   int movieAgeRating = 16;
 
-  if ((ageOfSpectator >= 16 || hasParentalConsent) && movieAgeRating >= 16) {
+  if ((ageOfSpectator >= 16 || hasParentalConsent) && movieAgeRating <= 16) {
     print('Zusehen erlaubt');
   } else {
     print('Zusehen verweigert');
